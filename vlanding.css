@@ -1,0 +1,56 @@
+#evp-H1EFQPUF1Q { margin: 0 auto }
+#addtocart { display: block; text-align: center }
+/*testimonial styles*/
+  .quotebox {
+    display: block;
+    padding: 5px 35px 5px;
+    font-size: 14px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin: 10px 10px 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    -moz-box-shadow: 0px 0px 15px #ccc;
+    -webkit-box-shadow: 0px 0px 15px #ccc;
+    -khtml-border-radius: 10px;
+    background-color: #FFFFDF;
+    line-height: 16px;
+  }
+  .quotebox:first-line {
+    font-size: 18px;
+    font-variant: small-caps;
+  }
+  .bqstart {
+    float: left;
+    height: 10px;
+    font-size: 750%;
+    color: #b80b0b;
+    margin-left: -45px;
+    margin-top: 10px;
+  }
+  .bqend {
+    float: right;
+    height: 15px;
+    padding-top: 0px;
+    font-size: 750%;
+    color: #b80b0b;
+    margin-top: 25px;
+    margin-right: -45px;
+  }
+  .sale-header {
+    color: #31598C;
+    background-color: #efefef;
+    padding: 4px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+margin: 0;
+  }
+
+  p, td, table {font:Arial; font-family:Arial, Helvetica; text-align:left;}
+  .sale-label-req { text-align:left; font:Arial; font-family:Arial, Helvetica}
+  .sale-label { text-align:left; font:Arial; font-family:Arial, Helvetica}
+  .s {font-weight: bold; color: #CC0000; font-size: 24px; font-family: Verdana, Arial, Helvetica, sans-serif; }
