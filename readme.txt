@@ -22,8 +22,8 @@ A few notes :
 == Installation ==
 
 1. Upload file to the `/wp-content/plugins/` directory
-1. Activate the SMN Woo Cleanup plugin through the 'Plugins' menu in the WordPress Admin Panel
-1. Manually copy the woocommerce template files to the current theme
+2. Activate the SMN Woo Cleanup plugin through the 'Plugins' menu in the WordPress Admin Panel
+3. Manually copy the woocommerce template files to the current theme
 
 
 == Changelog ==
