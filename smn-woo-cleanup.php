@@ -56,5 +56,25 @@ function smn_woo_cleanup_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'smn_woo_cleanup_scripts' );
+ 
+function smn_woo_cleanup_order_redirect() {
+	global $wp;
+	
+	if ( is_checkout() && ! empty( $wp->query_vars['order-received'] ) ) {
+/*
+$wp->query_vars['order-received'] = the order ID, like 18457
+http://dev.strongmarriagenow.com/wp-admin/post.php?post=18457&action=edit has meta fields
+infusionsoft_invoice_id = 21739
+infusionsoft_order_id = 21737
+infusionsoft_view_order = https://haveasweetlife.infusionsoft.com/Job/manageJob.jsp?view=edit&ID=21737
+...
+*/
+		$wcorderid = $wp->query_vars['order-received'];
+		$infusionsoft_order_id = get_post_meta( $wcorderid, 'infusionsoft_order_id', true );
+		wp_redirect( home_url('/') . 'specialoffer-platinumpackage.php?orderId='. $infusionsoft_order_id );
+		//wp_die('<pre>'. print_r($wp,true) .'</pre>');
+		exit;
+	}
+}
 
-
+add_action( 'template_redirect', 'smn_woo_cleanup_order_redirect' );

@@ -1,5 +1,6 @@
 function showOffer() {
 jQuery('#addtocart').show();
+jQuery('#checkout-products input:radio').eq(0).click();
 }
 
 jQuery(function($) {
