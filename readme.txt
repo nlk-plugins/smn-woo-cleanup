@@ -3,7 +3,7 @@ Contributors: chousmith
 Tags: woo, commerce, checkout, fields, order, reorder, cleanup
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 0.1
+Stable tag: 1.0
 
 Hooks to some Woo Commerce filters and actions to re-arrange and clean up some things.
 
@@ -27,6 +27,9 @@ A few notes :
 
 
 == Changelog ==
+
+= 1.0 =
+* official 1.0 since this is being used on live anyways
 
 = 0.1 =
 * Initial release

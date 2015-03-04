@@ -4,7 +4,7 @@ Plugin Name: SMN Woo Cleanup
 Plugin URI: https://github.com/ninthlink/nlk-plugins/tree/master/smn-woo-cleanup
 Description: Hooks to some Woo Commerce filters and actions to re-arrange and clean up some things?
 Author: alex chousmith
-Version: 0.1
+Version: 1.0
 Author URI: http://www.ninthlink.com
 */
 
